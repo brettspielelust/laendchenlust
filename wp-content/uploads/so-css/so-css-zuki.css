@@ -1,0 +1,21 @@
+/* Nur auf Bildschirmen ab Tablet-Größe in 3 Spalten aufteilen */
+@media screen and (min-width: 768px) {
+  #footer-widgets .widget-area {
+    width: 31% !important;
+    margin-right: 3.5% !important;
+    float: left !important;
+    clear: none !important;
+  }
+
+  /* Den rechten Rand der 3. Spalte entfernen, damit es bündig abschließt */
+  #footer-widgets .widget-area:nth-of-type(3),
+  #footer-widgets .footer-widget-3 {
+    margin-right: 0 !important;
+  }
+}
+
+/* Footer-Bereiche 4 und 5 vollständig ausblenden */
+#footer-widgets .footer-widget-4,
+#footer-widgets .footer-widget-5 {
+  display: none !important;
+}

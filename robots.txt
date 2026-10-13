@@ -1,0 +1,10 @@
+Sitemap: https://https://github.com/brettspielelust/laendchenlust/sitemap.xml
+Sitemap: https://https://github.com/brettspielelust/laendchenlust/news-sitemap.xml
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://https://github.com/brettspielelust/laendchenlust/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK
